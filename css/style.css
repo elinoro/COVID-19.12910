@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+html{
+  background: rgb(238, 238, 238);
+  font-family: PT Sans Narrow, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+}
+
+.headline{
+  font-size: 3.5em;
+}
+
+.content{
+  display: flex;
+  padding-top: 4.5em;
+}
+
+.data{
+  width: 30em;
+  height: 30em;
+  background: rgb(216, 213, 213);
+  padding: 2em 3em;
+  line-height: 2em;
+  margin-right: 5em;
+  border: 2px black solid;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.statisticsContent{
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+
+button.graph,.statistics{
+  padding: 0.3em;
+  margin: 0 0.5em;
+  border: 1px black solid;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  font-size: 1em;
+}
+
+#map{
+  text-align: center;
+}
+
+.asia{
+  position: relative;
+  bottom: 305px;
+  left: 510px;
+}
+
+.northAmerica{
+  position: relative;
+  bottom: 355px;
+  left: 100px;
+}
+
+.australia{
+  position: relative;
+  bottom: 235px;
+  left: 640px;
+}
+
+.southAmerica{
+  position: relative;
+  bottom: 225px;
+  left: 200px;
+}
+
+.europe{
+  position: relative;
+  bottom: 340px;
+  left: 365px;
+}
+
+.africa{
+  position: relative;
+  bottom: 340px;
+  left: 350px;
+}
+
+.continent:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.continent{
+  width: 3em;
+  font-weight: bold;
+}
